@@ -1,0 +1,4 @@
+Application of C from python:
+The simplest method is considered to be use "ctypes"
+1,write common c program as !!!.c
+2,gcc -o ???.so -fPIC  !!!.c
