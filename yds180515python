@@ -1,4 +1,9 @@
 Application of C from python:
 The simplest method is considered to be use "ctypes"
 1,write common c program as !!!.c
-2,gcc -o ???.so -fPIC  !!!.c
+2,gcc -o ???.so -shared -fPIC  !!!.c
+3,in python3 code:
+a.import ctypes
+b.
+
+
