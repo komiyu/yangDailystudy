@@ -4,6 +4,8 @@ The simplest method is considered to be use "ctypes"
 2,gcc -o ???.so -shared -fPIC  !!!.c
 3,in python3 code:
 a.import ctypes
-b.
+b.dll=ctypes.cdll.LoadLibrary
+c.libc=dll('!!!.so')
+d.libc.methodInC()
 
 
